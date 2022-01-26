@@ -1,0 +1,201 @@
+*{
+  padding:0px ;
+  margin:0px;
+  box-sizIng:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+  font-family: 'Oswald', sans-serif;
+}
+#home{
+  width:100%;
+height:auto;
+padding-bottom:20px;
+background:#ffdb23
+;
+color:#111;
+}
+ul.navMenu li a {
+  color: #111;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+ul.navMenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  height: 67px;
+  align-items:center;
+}
+
+nav {
+  height: 67px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div#logo img {
+  height: 90px;
+  width: 90px;
+}
+a.navbar-brand img {
+  width: 90px;
+  height: 90px;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+}
+a.nav-link {
+  color: #111;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+div#des-para p {
+  font-weight: bold;
+  font-size: 19px;
+  font-family: 'Oswald';
+}
+
+div#des-para {
+  height: 100%;
+}
+
+div#card_head {
+  display: flex;
+  justify-content: space-around;
+  margin:auto;
+}
+div#card {
+  width: 550px;
+  margin: 0 auto;
+  padding: 29px 0px;
+  border-radius: 37px;
+  border: 1px solid #111;
+  background: rgb(240, 202, 208);
+  z-index:1;
+}
+
+hr#hr {
+    width: 93%;
+    margin: auto;
+    margin-top: 10px;
+    height: 2px;
+    background: #111;
+    color: #111;
+}
+div#cc button i {
+  font-size: 27px;
+}
+
+div#cc button {
+  background: transparent;
+  border: none;
+}
+.cur1 {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  align-items:center;
+  height:45px;
+}
+.cur1 img{
+  width:45px;
+  border-radius:28px;
+}
+
+div#chib {
+  width: 97%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.priceVanue {
+  background: #fff;
+  padding: 10px 16px;
+  border-radius: 19px;
+  width: 95%;
+  margin: auto;
+  text-align: right;
+  font-size: 22px;
+  font-weight: bold;
+}
+div#co span {
+  margin-left: 24px;
+}
+
+div#co {
+  text-align: right;
+ 
+}
+.arrow i {
+  font-size: 47px;
+}
+.arrow {
+  margin-top: 67px !important;
+}
+.arrow {
+  width: 100%;
+  
+ 
+  margin-bottom:25px;
+  text-align: center;
+}
+
+a#donate {
+    width: 174px;
+    text-align: center;
+    text-decoration: none;
+    color: #111;
+    background: #ffdb23;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid #111;
+}
+
+.para.row.m-auto {
+  margin-top: 66px !important;
+  margin-bottom: 60px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:668px){
+  .dis{
+    display:none
+  }
+  ul.navMenu{
+    display:block;
+    width:90% !important;
+  }
+
+  ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    height:100vh;
+    z-index:8 !important;
+    background: #fff;
+    padding:3px 0px;
+    position:absolute;
+    width:80%;
+}
+
+
+}
